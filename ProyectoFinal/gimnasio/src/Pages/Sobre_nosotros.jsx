@@ -9,9 +9,7 @@ const Sobre_nosotros = () => {
                             alt="Logo Gimnasio"
                             style={{ width: "150px", borderRadius: "20px", border: "5px solid #fff", boxShadow: "0 8px 32px rgba(25,22,84,0.15)" }}
                         />
-                        <div className="mt-3">
-                            <span style={{ fontSize: "2.5rem" }} role="img" aria-label="fuerza">💪</span>
-                        </div>
+                      
                     </div>
                     <div className="col-md-7">
                         <div className="bg-white bg-opacity-75 p-4 rounded-4 shadow-sm">
@@ -24,19 +22,19 @@ const Sobre_nosotros = () => {
                                 <div className="col-4">
                                     <div className="p-2">
                                         <i className="bi bi-people-fill text-success" style={{ fontSize: "2rem" }}></i>
-                                        <div className="fw-bold mt-1">Comunidad</div>
+                                        <div className="fw-bold mt-1" style={{ color: "#191654" }}>Comunidad</div>
                                     </div>
                                 </div>
                                 <div className="col-4">
                                     <div className="p-2">
                                         <i className="bi bi-award-fill text-warning" style={{ fontSize: "2rem" }}></i>
-                                        <div className="fw-bold mt-1">Profesionales</div>
+                                        <div className="fw-bold mt-1" style={{ color: "#191654" }}>Profesionales</div>
                                     </div>
                                 </div>
                                 <div className="col-4">
                                     <div className="p-2">
                                         <i className="bi bi-heart-pulse-fill text-danger" style={{ fontSize: "2rem" }}></i>
-                                        <div className="fw-bold mt-1">Salud</div>
+                                        <div className="fw-bold mt-1" style={{ color: "#191654" }}>Salud</div>
                                     </div>
                                 </div>
                             </div>
@@ -46,7 +44,7 @@ const Sobre_nosotros = () => {
                                 <li><i className="bi bi-check-circle-fill text-success me-2"></i>Clases grupales y personalizadas</li>
                                 <li><i className="bi bi-check-circle-fill text-success me-2"></i>Ambiente familiar y seguro</li>
                             </ul>
-                            <p className="mt-4 text-center" style={{ color: "#43c6ac", fontWeight: "bold" }}>¡Te esperamos para entrenar juntos y lograr tus objetivos!</p>
+                            <p className="mt-4 text-center" style={{ color: "#191654", fontWeight: "bold" }}>¡Te esperamos para entrenar juntos y lograr tus objetivos!</p>
                         </div>
                     </div>
                 </div>
